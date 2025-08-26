@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media (max-width: 600px) {
+  .resume {
+    width: 95%;
+  }
+   header {
+    font-size: 14px;
+  }
+    table {
+    display: block;
+    overflow-x: auto;
+  }
+  .pic img {
+    width: 100px;
+  }
+}
+
+
+
+
+.resume {
+  background-color: rgb(227, 238, 234);
+  border: 2px solid black;
+  height: auto;
+  width: 544px;
+  margin: auto;
+  padding: 10px;
+}
+
+
+table,
+th,
+td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+ul {
+  margin: 0;
+  padding-left: 6px;
+  list-style-type: none;
+
+}
+
+
+
+table {
+  background-color: beige;
+  font-family: "Baloo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+ul li {
+  color: rgb(39, 28, 30);
+  font-style: italic;
+  margin-bottom: 3px;
+}
+
+
+label {
+  
+  display: block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+  margin: 6px;
+}
+
+
+
+.submit {
+  background-color: rgb(79, 212, 79);
+  
+  margin: 10px ;
+  
+  border: 3px solid rgb(79, 212, 79);
+  
+}
+
+.submit:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+  border-color: black;
+}
+
+header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(236, 245, 216);
+  font-weight: 500;
+  padding: 2px;
+  margin: 2px;
+  text-decoration:underline ;
+}
+
+p {
+  background-color: rgb(230, 218, 203);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 3px;
+}
+
+footer {
+  font-family: "Baloo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+}
+
+form {
+  margin: 6PX;
+  border: 1px solid black;
+  padding: 10PX;
+
+}
+
+
+.pic{
+   
+  margin: 10px 0;
+}
+
+.pic img {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  width: 150px;
+  border: 2px solid black;
+}
+
+input,textarea{
+  display: block;
+  width: 95%;
+  margin-bottom: 10px;
+padding: 6px;
+}
